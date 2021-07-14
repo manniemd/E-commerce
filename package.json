@@ -1,0 +1,25 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "This app uses Sequelize and it interacts with a MySQL Database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manniemd/E-commerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manniemd/E-commerce/issues"
+  },
+  "homepage": "https://github.com/manniemd/E-commerce#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  }
+}
